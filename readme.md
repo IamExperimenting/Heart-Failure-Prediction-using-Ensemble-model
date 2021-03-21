@@ -10,7 +10,9 @@ People with cardiovascular disease or who are at high cardiovascular risk (due t
 
 ### Ensemble Classifier Model
 Stacking is an ensemble learning technique to combine multiple classification models via a meta-classifier. The individual classification models are trained based on the complete training set; then, the meta-classifier is fitted based on the outputs -- meta-features -- of the individual classification models in the ensemble. The meta-classifier can either be trained on the predicted class labels or probabilities from the ensemble.
+
 ![alt text](http://rasbt.github.io/mlxtend/user_guide/classifier/StackingClassifier_files/stackingclassification_overview.png)
+
 
 ### Significant Drivers
 ![alt text](https://github.com/IamExperimenting/Heart-Failure-Prediction-using-Ensemble-model/blob/master/images/feature_importance.png)
