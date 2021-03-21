@@ -17,19 +17,19 @@ Download miniconda using the following command:
   source .bashrc
   
 To create conda environment to support this use-case
-  conda env create -f environment.yml
+conda env create -f environment.yml
   
 To activate the conda environment
-  conda activate Assignment
+conda activate Assignment
   
 change directory to source directory 
-  'cd source/'
+'cd source/'
  
 To train an ensemble model run, open command prompt and please run the below command,
-  python main.py
+python main.py
   
 To start the server on localhost, open commad prompt and please run the below command,
-  uvicorn api:app --reload
+uvicorn api:app --reload
   
 open internet browser and get into localhost server 'http://127.0.0.1:8000/docs'
 
@@ -52,6 +52,7 @@ please paste the below sample json input in the request body
   "smoking": 0,
   "time": 4
   }
+
 Finally press Execute bar.
 
 You ca find the prediction result in Response Body as 
