@@ -31,9 +31,9 @@ python main.py
 To start the server on localhost, open commad prompt and please run the below command, \
 uvicorn api:app --reload 
   
-open internet browser and get into localhost server 'http://127.0.0.1:8000/docs' \
+open internet browser and get into localhost server 'http://127.0.0.1:8000/docs' 
 
-Please click 'POST' menu \
+Please click 'POST' menu 
 
 Please press 'Try it out' button on the right side of the bar \
 please paste the below sample json input in the request body 
