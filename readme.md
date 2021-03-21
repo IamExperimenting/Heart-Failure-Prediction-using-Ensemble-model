@@ -14,28 +14,28 @@
 Download miniconda using the following command:\
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh \
 sh Miniconda3-latest-Linux-x86_64.sh \
-source .bashrc \
+source .bashrc 
   
-To create conda environment to support this use-case\
-conda env create -f environment.yml\
+To create conda environment to support this use-case \
+conda env create -f environment.yml \
  
-To activate the conda environment\
-conda activate Assignment\
+To activate the conda environment \
+conda activate Assignment \
   
 change directory to source directory \
-'cd source/'\
+'cd source/' \
  
-To train an ensemble model run, open command prompt and please run the below command,\
-python main.py\
+To train an ensemble model run, open command prompt and please run the below command, \
+python main.py \
   
-To start the server on localhost, open commad prompt and please run the below command,\
-uvicorn api:app --reload\
+To start the server on localhost, open commad prompt and please run the below command, \
+uvicorn api:app --reload \
   
-open internet browser and get into localhost server 'http://127.0.0.1:8000/docs'\
+open internet browser and get into localhost server 'http://127.0.0.1:8000/docs' \
 
-Please click 'POST' menu\
+Please click 'POST' menu \
 
-Please press 'Try it out' button on the right side of the bar\
+Please press 'Try it out' button on the right side of the bar \
 please paste the below sample json input in the request body \
 
 {
@@ -53,7 +53,7 @@ please paste the below sample json input in the request body \
   "time": 4
   }
 
-Finally press Execute bar.\
+Finally press Execute bar. \
 
 You ca find the prediction result in Response Body as \
   {
@@ -61,9 +61,9 @@ You ca find the prediction result in Response Body as \
   }
 
 #### Curl command
-To predict using curl command, open commad prompt and please run the below command,\
+To predict using curl command, open commad prompt and please run the below command, \
 
-  curl -X 'POST' \
+  curl -X 'POST' 
   'http://127.0.0.1:8000/predict' 
   -H 'accept: application/json' 
   -H 'Content-Type: application/json' 
