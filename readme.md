@@ -14,9 +14,6 @@ People with cardiovascular disease or who are at high cardiovascular risk (due t
 ### Model Explainability
 ![alt text](https://github.com/IamExperimenting/Heart-Failure-Prediction-using-Ensemble-model/blob/master/images/shap_image.png)
 
-### Model Performance Metric - AUC
-![alt text](https://github.com/IamExperimenting/Heart-Failure-Prediction-using-Ensemble-model/blob/master/images/roc_curve.png)
-
 ### Requirement 
 
 - OS - Ubuntu 18.04
