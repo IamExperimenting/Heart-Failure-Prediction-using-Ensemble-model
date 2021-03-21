@@ -10,31 +10,10 @@
 - Miniconda for linux
 
 
-### Folder Structure
-  Interview_Code
-  |
-  |___Data_Input
-  |   |__heart_failure_clinical_records_dataset.csv
-  |___Environment_file.yml
-  |___output
-  |   |__ensemble_model.pk
-  |   |__feature_importance.png
-  |   |__roc_curve.png
-  |   |__shap.png
-  |___readme.md
-  |___source
-      |__api.py
-      |__api_test.py
-      |__config.ini
-      |__EDA.ipynb
-      |__main.py
-      |__model.py
-      |__variables.py
-
 ### Instructions
 - Download miniconda using the following command:
   wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-  sh Miniconda3-latest-Linux-x86_64.sh
+        sh Miniconda3-latest-Linux-x86_64.sh
   source .bashrc
 - To create conda environment to support this use-case
   conda env create -f environment.yml
