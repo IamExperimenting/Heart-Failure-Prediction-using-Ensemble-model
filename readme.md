@@ -100,4 +100,7 @@ To predict using curl command, open commad prompt and please run the below comma
   "time": 4
   }'
 
+### Pytest 
+
+Please run 'pytest' in the command prompt for basic test like incorrect url, data, and header
 
