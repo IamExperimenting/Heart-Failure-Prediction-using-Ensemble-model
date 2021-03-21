@@ -8,6 +8,9 @@ Most cardiovascular diseases can be prevented by addressing behavioural risk fac
 
 People with cardiovascular disease or who are at high cardiovascular risk (due to the presence of one or more risk factors such as hypertension, diabetes, hyperlipidaemia or already established disease) need early detection and management wherein a machine learning model can be of great help.
 
+### Significant Drivers
+![alt text](https://github.com/IamExperimenting/Heart-Failure-Prediction-using-Ensemble-model/blob/master/images/feature_importance.png)
+
 ### Requirement 
 
 - OS - Ubuntu 18.04
