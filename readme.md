@@ -17,13 +17,13 @@ sh Miniconda3-latest-Linux-x86_64.sh \
 source .bashrc 
   
 To create conda environment to support this use-case \
-conda env create -f environment.yml \
+conda env create -f environment.yml
  
 To activate the conda environment \
-conda activate Assignment \
+conda activate Assignment 
   
 change directory to source directory \
-'cd source/' \
+'cd source/' 
  
 To train an ensemble model run, open command prompt and please run the below command, \
 python main.py \
