@@ -12,9 +12,9 @@
 
 ### Instructions
 Download miniconda using the following command:\
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh\
-sh Miniconda3-latest-Linux-x86_64.sh\
-source .bashrc\
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh \
+sh Miniconda3-latest-Linux-x86_64.sh \
+source .bashrc \
   
 To create conda environment to support this use-case\
 conda env create -f environment.yml\
