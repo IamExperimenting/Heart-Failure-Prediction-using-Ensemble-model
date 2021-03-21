@@ -41,7 +41,7 @@ conda env create -f environment.yml
 conda activate Assignment 
   
 #### change directory to source directory 
-'cd source/' 
+cd source/
  
 #### To train an ensemble model run, open command prompt and please run the below command, 
 python main.py 
