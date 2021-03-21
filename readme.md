@@ -18,6 +18,8 @@ People with cardiovascular disease or who are at high cardiovascular risk (due t
 
 - OS - Ubuntu 18.04
 - Miniconda for linux
+- Python Version 3.7.10
+- PIP version 21.0.1
 
 
 ### Instructions
