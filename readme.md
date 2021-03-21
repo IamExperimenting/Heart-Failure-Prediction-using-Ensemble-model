@@ -15,27 +15,27 @@ People with cardiovascular disease or who are at high cardiovascular risk (due t
 
 
 ### Instructions
-####Download miniconda using the following command:\
+#### Download miniconda using the following command:\
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh \
 sh Miniconda3-latest-Linux-x86_64.sh \
 source .bashrc 
   
-####To create conda environment to support this use-case \
+#### To create conda environment to support this use-case \
 conda env create -f environment.yml
  
-####To activate the conda environment \
+#### To activate the conda environment \
 conda activate Assignment 
   
-####change directory to source directory \
+#### change directory to source directory \
 'cd source/' 
  
-####To train an ensemble model run, open command prompt and please run the below command, \
+#### To train an ensemble model run, open command prompt and please run the below command, \
 python main.py 
   
-####To start the server on localhost, open commad prompt and please run the below command, \
+#### To start the server on localhost, open commad prompt and please run the below command, \
 uvicorn api:app --reload 
   
-####open internet browser and get into localhost server 'http://127.0.0.1:8000/docs' 
+#### open internet browser and get into localhost server 'http://127.0.0.1:8000/docs' 
 
 Please click 'POST' menu 
 
