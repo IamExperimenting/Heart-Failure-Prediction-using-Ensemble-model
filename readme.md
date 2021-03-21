@@ -53,7 +53,7 @@ please paste the below sample json input in the request body
   "time": 4
   }
 
-Finally press Execute bar. \
+Finally press Execute bar. 
 
 You ca find the prediction result in Response Body as \
   {
@@ -61,7 +61,7 @@ You ca find the prediction result in Response Body as \
   }
 
 #### Curl command
-To predict using curl command, open commad prompt and please run the below command, \
+To predict using curl command, open commad prompt and please run the below command, 
 
   curl -X 'POST' 
   'http://127.0.0.1:8000/predict' 
