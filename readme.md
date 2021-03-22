@@ -9,7 +9,7 @@ Most cardiovascular diseases can be prevented by addressing behavioural risk fac
 People with cardiovascular disease or who are at high cardiovascular risk (due to the presence of one or more risk factors such as hypertension, diabetes, hyperlipidaemia or already established disease) need early detection and management wherein a machine learning model can be of great help.
 
 ### Ensemble Classifier Model
-Stacking is an ensemble learning technique to combine multiple classification models via a meta-classifier. The individual classification models are trained based on the complete training set; then, the meta-classifier is fitted based on the outputs -- meta-features -- of the individual classification models in the ensemble. The meta-classifier can either be trained on the predicted class labels or probabilities from the ensemble.
+Stacking is an ensemble learning technique to combine multiple classification models via a meta-classifier. The individual classification models are trained based on the complete training set; then, the meta-classifier is fitted based on the outputs -- meta-features -- of the individual classification models in the ensemble. The meta-classifier can either be trained on the predicted class labels or probabilities from the ensemble. Here, in my case I have considered SVC, RF, GuassianNB combined their probabilities and used Logistic regression model as meta classifier. To measure the performance of the model I majorly considered to go on with AUC metric. To figure the how well the model is classified I have used precision and recall and F1 score.
 
 ![alt text](http://rasbt.github.io/mlxtend/user_guide/classifier/StackingClassifier_files/stackingclassification_overview.png)
 
