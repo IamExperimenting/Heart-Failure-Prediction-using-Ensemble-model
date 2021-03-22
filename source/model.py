@@ -14,7 +14,7 @@ from sklearn.feature_selection import SelectFromModel
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import accuracy_score,roc_auc_score,auc,roc_curve
+from sklearn.metrics import accuracy_score,roc_auc_score,auc,roc_curve,precision_score, recall_score,f1_score
 from configparser import ConfigParser
 
 ## reading config file
@@ -105,3 +105,6 @@ class Modelling:
         plt.savefig(roc_image_path)
         
         print('Accuracy of an ensemble model:{:.2f}'.format(accuracy_score(self.y_test, y_pred)))
+        print('Precision of an ensemble model:{:.2f}'.format(precision_score(self.y_test, y_pred)))
+        print('Recall of an ensemble model:{:.2f}'.format(recall_score(self.y_test, y_pred)))
+        print('F1score of an ensemble model:{:.2f}'.format(f1_score(self.y_test, y_pred)))
